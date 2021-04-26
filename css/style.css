@@ -1,0 +1,84 @@
+body{
+background-image:url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+}
+
+#wrapper {
+
+width:70%;
+margin:auto;
+
+}
+
+h1 {
+  color:black;
+  font-style:bold;
+}
+
+ul#social { 
+list-style-type: none;
+display:flex;
+
+}
+
+ul#social li {
+float: left;
+
+}
+
+/*.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (white) on hover */
+nav ul li a:hover {
+  background-color: #111;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer ul li img {
+        width:30%;
+}
+
+/* #hero{
+ background-image:url("../images/bgg.jpg");
+        height:200px;
+
+}
+
+
+
